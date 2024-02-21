@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.carousel img {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.animals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animal {
+    flex: 1 1 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.animal img {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
